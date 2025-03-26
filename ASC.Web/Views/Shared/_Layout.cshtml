@@ -1,12 +1,19 @@
 ﻿@{
     Layout = "_MasterLayout";
 }
+<style>
+    #logo-container img {
+        width: 70px; /* Điều chỉnh kích thước nhỏ lại */
+        height: auto; /* Giữ tỷ lệ */
+        object-fit: cover; /* Đảm bảo hình ảnh không bị méo */
+    }
+</style>
 
 <header>
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
             <a id="logo-container" href="#" class="brand-logo">
-                <img class="responsive-img" src="~/logo.png" alt="Logo" />
+                <img class="responsive-img" src="~/Logo.jpg" alt="Logo" />
             </a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="#">Login</a></li>
@@ -80,8 +87,8 @@
         </div>
     </div>
     <div class="footer-copyright">
-    <div class="container">
-        Powered by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        <div class="container">
+            Powered by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        </div>
     </div>
-</div>
 </footer>

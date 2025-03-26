@@ -1,3 +1,4 @@
+wwwroot\Avata.jpg
 wwwroot\background1.jpg
 wwwroot\background2.jpg
 wwwroot\background3.jpg
@@ -69,5 +70,4 @@ wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\LICENSE
-wwwroot\logo.png
-wwwroot\male.png
+wwwroot\Logo.jpg
